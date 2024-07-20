@@ -1,6 +1,6 @@
 #  [ Anti-LogiN v.1.0 ]
 
-🇮🇷AliCybeRR🇮🇷 
+Sempai 
 
 # [ AliCybeRR.AntiLogin feature ]
 - [x] support Termux ❕
